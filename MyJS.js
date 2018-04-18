@@ -1,3 +1,9 @@
+WebsiteModel = Backbone.Model.extend({
+    initialize: function() {
+        alert("Hi father");
+    }
+});
+
 $(document).ready(function() {
-    alert("Hi doggy");
+    let page_model = new WebsiteModel();
 });
